@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YUzhva/react-leaflet-markercluster.git"
+    "url": "git+https://github.com/Bibernull/react-leaflet-markercluster.git"
   },
   "keywords": [
     "react",
@@ -71,7 +71,7 @@
     "html-webpack-plugin": "^2.29.0",
     "jest": "^22.1.4",
     "leaflet": "^1.3.0",
-    "leaflet.markercluster": "^1.3.0",
+    "leaflet.markercluster": "github:Bibernull/Leaflet.markercluster#unspiderfy-on-direct-click",
     "lint-staged": "^6.1.0",
     "node-sass": "^4.5.3",
     "npm-sass": "^2.2.1",
@@ -99,5 +99,7 @@
     "leaflet.markercluster": "^1.3.0",
     "prop-types": "^15.6.2",
     "react-leaflet": "^2.0.0"
+  },
+  "dependencies": {
   }
 }
